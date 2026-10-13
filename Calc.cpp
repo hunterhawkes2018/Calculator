@@ -291,7 +291,7 @@ int main()
 
                     if (current == 0)
                     {
-                        cout << "Error: Current cannot be zero.\n";
+                        cout << "Error: Current cannot be zero.\\n";
                         break;
                     }
 
