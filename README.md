@@ -1,57 +1,58 @@
-C++ Calculator
+C++ Electrical & Engineering Calculator
 
-A menu-driven calculator built in C++ using Visual Studio. This project is part of my journey learning programming, debugging, and problem-solving, with a long-term goal of working in electronic technology and industrial automation.
+A menu-driven C++ calculator built to practice programming fundamentals and electrical calculations relevant to Electronic Technician and PLC Controls Technician work.
 
-Features:
+Current Version
 
-Addition, Subtraction, Multiplication, and Division
-Percentage Calculations — Calculate a percentage of a number.
-Power Calculations — Raise a number to a specified exponent.
-Square Root — Calculate the square root of a non-negative number.
-Calculation History — View previous calculations during the current session.
-Input Validation — Detect invalid numeric input and menu selections.
-Error Handling — Prevent division by zero and handle invalid square root and power operations.
-Formatted Results — Display results using a consistent number format.
+v2.1.0 — Circuit Analysis & Persistent History
 
-Technologies Used:
+Features
+
+General Calculator
+Addition, subtraction, multiplication, and division
+Percentage calculations
+Power calculations
+Square root calculations
+
+Electrical Calculations
+
+Ohm's Law: Calculate voltage, current, or resistance.
+DC Series Circuit Analyzer: Analyze series circuits.
+Parallel Circuit Analyzer: Calculate equivalent resistance, branch currents, total current, and total power.
+
+Data Persistence
+
+Saves calculation history to calculator_history.txt.
+Loads saved history when the program starts.
+Preserves calculation history between sessions.
+
+Technologies
 
 C++
-Visual Studio
-Standard Template Library (STL)
-iostream — Input and output
-vector — Store calculation history
-string — Format and store calculations
-cmath — Mathematical operations
-sstream and iomanip — Format numerical results
-limits — Handle invalid input
+Standard Library (iostream, fstream, vector, and other standard headers)
+File input/output
+Functions and control flow
 
-What I Learned:
+Skills Practiced
 
-Using variables and data types
-Working with loops and conditional statements
-Implementing switch statements
-Creating reusable functions
-Storing data in vectors
-Validating user input
-Handling mathematical errors
-Using GitHub to document and share projects
+User input validation
+Mathematical calculations
+Electrical circuit analysis
+Functions and program organization
+Persistent data storage
+Debugging and testing
 
-Future Improvements:
-
-Save calculation history to a file.
-Add a function to clear calculation history.
-Organize calculations into separate functions.
-Improve numerical precision and edge-case handling.
-Add automated tests.
-Explore how programming concepts apply to PLCs and industrial control systems.
-
-How to Run:
+How to Run
 
 Clone or download this repository.
-Open the project in Visual Studio.
-Compile and run the C++ program.
-Select an operation from the menu and follow the prompts.
+Open the project in Visual Studio or compile the source using a compatible C++ compiler.
+Build and run the program.
+Follow the numbered menu options.
 
-Author
+Planned Improvements
 
-Learning C++ with an interest in electronic troubleshooting, PLC programming, industrial automation, and controls technology.
+Improve function organization and code reuse.
+Expand electrical calculations.
+Add more input validation and error handling.
+
+Develop additional tools related to industrial controls and automation.
